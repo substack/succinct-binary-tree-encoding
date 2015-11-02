@@ -8,6 +8,7 @@ exports.encode = function (tree) {
       next(node.right)
     }
   })(tree)
+  for (var i = bits.length-1; i>=0 && !bits[i]; i--) bits.pop()
   return bits
 }
 
