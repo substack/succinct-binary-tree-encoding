@@ -4,8 +4,8 @@ exports.encode = function (tree) {
     if (!node) bits.push(0)
     else {
       bits.push(1)
-      encode(node.left)
-      encode(node.right)
+      next(node.left)
+      next(node.right)
     }
   })(tree)
   return bits
