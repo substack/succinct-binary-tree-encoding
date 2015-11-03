@@ -25,7 +25,7 @@ decode a bit field to a binary tree:
 var succinct = require('succinct-binary-tree-encoding')
 
 var tree = JSON.parse(process.argv.slice(2).join(' '))
-var bits = succinct.encode(tree)
+var bits = succinct.decode(tree)
 console.log(bits.join(''))
 ```
 
