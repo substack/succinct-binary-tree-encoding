@@ -1,0 +1,35 @@
+{
+  "name": "succinct-binary-tree-encoding",
+  "version": "1.0.0",
+  "description": "succinctly represent the structure of a binary tree",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.2.2"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/substack/succinct-binary-tree-encoding.git"
+  },
+  "keywords": [
+    "binary",
+    "tree",
+    "encoding",
+    "succinct",
+    "bits",
+    "bitfield"
+  ],
+  "author": "substack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/substack/succinct-binary-tree-encoding/issues"
+  },
+  "homepage": "https://github.com/substack/succinct-binary-tree-encoding#readme"
+}
